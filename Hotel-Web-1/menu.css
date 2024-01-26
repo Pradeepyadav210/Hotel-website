@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: #cdcaca;
+}
+.navbar1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar1 i{
+    margin: 0 5px; 
+    align-items: center;
+}
+.navbar1 a{
+    text-decoration: none;
+    color: wheat;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+.navbar2{
+    width: 100%;
+    height: 80px;
+    color: rgb(244, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px  220px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font: bold;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+}
+.content{
+    border-style: double;
+    margin: 15px;
+    padding: 25px;
+    
+}
+.content h2{
+    text-align: center;
+    font: bold;
+    margin-bottom: 25px;
+    margin-left: 620px;
+    margin-right: 620px;
+    padding: 2px;
+    
+}
+.items{
+
+    display: inline;
+    padding: 15px;
+    
+
+}
+.items ul{
+    display: flex;
+    
+    
+}
+
+.item1{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 35px;
+    
+    
+}
+.item1 li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.item2{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.item3{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+
+.drink ul{
+    display: flex;
+    padding-left: 5px;
+}
+
+.drink1{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 35px;
+
+}
+.drink1 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+button{
+    background-color: #e67e22;
+    color: white;
+    width: 95px;
+    position: relative;
+    left: 12px;;
+    float: left;
+}
+button:hover{
+    background-color: white;
+    color:#e67e22;
+    width: 105px;
+
+
+}
+.line{
+    display: inline-flex;
+}
